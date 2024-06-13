@@ -1,3 +1,3 @@
-pip install termcolor\n
-pip install pyfiglet\n
-py app.py
+# pip install termcolor
+# pip install pyfiglet
+# py app.py
