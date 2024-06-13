@@ -15,7 +15,7 @@ def convertTreeToListOfFilesAndFolders(lines:list[str]):
 def getTreeMaxDepth(lines:list[str]):
     max_depth = 0
     for line in lines:
-        depth = len(line.split())
+        depth = len(line.split())+(line.count('       ') if '       ' in line else 0)
         if depth > max_depth:
             max_depth = depth
     return max_depth
