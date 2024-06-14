@@ -19,7 +19,7 @@ file = open(fileName,'r')
 
 if __name__=='__main__':
     system('cls' if name=='nt' else 'clear')
-    print_red(f.renderText("Tree To Zip"))
+    print_red(f.renderText("Tree To Files"))
     if(not exists(fileName) or not isfile(fileName)):
         print_red("struct.txt File Not Exist.")
         exit()
